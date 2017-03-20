@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BG Cog Reviews Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset = "UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+     <!--Font Awesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--My Style Sheet-->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+ 
+</head>
+<body>
+    <!--Navigation-->
+    <div class="navbar navbar-inverse navebar-static-top">
+    <div class="container">
+        <!--collapse menu trigger-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <div class="container" onclick="myFunction(this)">
+        <div class="icon-bar1"></div>
+        <div class="icon-bar2"></div>
+        <div class="icon-bar3"></div>
+           </div>
+        </button>
+        <script>
+        function myFunction(x) {
+    x.classList.toggle("change");
+}
+                </script>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav justified">
+                <li><a href="about1.html">About</a></li>
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="impression.html">Impressions</a></li>
+                <li class="dropdown">
+                      <a data-toggle="dropdown" role="button" class="dropdown">Releases<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li class="active"><a href="popularreleases.html">Popular</a></li>
+                        <li><a href="obscurereleases.html">Obscure</a></li>
+                      </ul>
+                </li> 
+            </ul>
+            
+            <div class=" main_logo">
+     <a href="index.html" class="logo_li">
+       <span class='span-logo'>
+          <img src="assets/Assignment%202%20Logo%201.2.2.png"/>
+       </span>
+     </a>
+   </div>
+            
+             <ul class="nav navbar-nav justified">
+            <li><a href="port.html">Portfolio</a></li>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="pccharts.html">PC Charts</a></li>
+            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+            
+            </ul>
+        </div>
+        </div>
+    </div>
+    
+    
+    <!--Grid System-->
+    
+    <div class="container">
+        <div class="row">
+              <!--Article 1 -->
+            <div class="col-md-6">
+                
+                    <div class="thumbnail">
+                        <img src="assets/Deadrising4.png"
+ alt="Article 1">
+                        <div class="caption">
+                            <h3>Dead Rising 4</h3> 
+                            
+                                    <p>
+                                             
+                                    </p>
+                        </div>
+                    </div>
+            </div>
+            <!--Article 2-->
+         
+            <div class="col-md-6">
+                    <div class="thumbnail">
+                        <img src="assets/styx.png" alt="Article 2">
+                        <div class="caption">
+                            <h3>Styx: Shards of Darkness</h3> 
+                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--Review 3-->
+        <div class="col-md-6">
+                
+                    <div class="thumbnail">
+                        <img src="assets/UMVC.png"
+ alt="Article 1">
+                        <div class="caption">
+                            <h3>Ultimate Marvel V Capcom 3</h3> 
+                              
+            
+                        </div>
+                    </div>
+            </div> 
+        <div class="col-md-6">
+                
+                    <div class="thumbnail">
+                        <img src="assets/GRWL.png"
+ alt="Article 1">
+                        <div class="caption">
+                            <h3>Ghost Recon: Wildlands</h3> 
+    
+                        </div>
+                    </div>
+            </div>
+        
+        </div>
+    
+    
+    <!--Footer-->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text">Site Built by Benjamin Gittus</p>
+            <a href="#contact" data-toggle="modal" class="navbar-btn btn btn-success pull-right">Contact Us</a>
+        </div>
+    </div>
+    
+    <!--Modal-->
+    <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <!--Modal Form Start-->    
+                <form class="form-horizontal">
+                <div class="modal-header"><!--Header-->
+                    <h3>Contact Us</h3>               
+                </div>
+                <div class="modal-body"><!--Body-->
+                    <div class="form-group"><!--Name-->
+                        <label for="contact-name" class="col-lg-2 control-label">Name</label>
+                        <div class="col-lg-10">
+                        <input type="text" class="form-control" id="contact-name" placeholder="Full Name">
+                        </div>
+                    </div>
+                    <div class="form-group"><!--Email-->
+                        <label for="contact-email" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                        <input type="email" class="form-control" id="contact-email" placeholder="you@example.com">
+                        </div>
+                    </div>    
+                    <div class="form-group"><!--Message-->
+                        <label for="contact-msg" class="col-lg-2 control-label">Message</label>
+                        <div class="col-lg-10">
+                        <textarea class="form-control" rows="8">
+                            
+                            </textarea>
+                        </div>
+                </div> 
+                    
+                <div class="modal-footer"><!--Footer-->
+                   <a class="btn btn-success" type="submit">Submit</a>
+                    <a class="btn btn-danger" data-dismiss="modal">
+                    Close
+                    </a>
+                </div>
+                </form>
+                <!--Modal Form End-->
+            </div>
+        </div>                                
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+    padding-bottom:80px;
+}
+
+.justified {
+    position: center;
+        left:auto;
+        right: auto;
+}
+
+<!--About Page mods-->
+.page-header{
+    margin-top: 0;
+}
+
+.panel-body{
+    padding-bottom: 0;
+}
+
+.featuredImg{
+    padding-bottom: 15px;
+}
+
+div.main_logo{ 
+    padding:0px; 
+    float:left
+}
+.nav{
+    font-size: 1.6em;
+   font-weight: bold;
+   font-family:century gothic;
+   text-decoration:none;
+   color:#262626;
+}
+.carousel slide{
+    position: fixed;
+    left: 50%;
+    top:30%;
+    transform: translate(-50%, -50%);
+    padding 50px;
+}
+header{
+    position: relative;
+    text-align: center;
+}
+
+video{
+width:100%
+}
+/* Button Style */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Background color */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style Accordian panel */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+.fancy-box {
+    float: right;
+    margin: .3em 0 1.5em 1.5em;
+    width: 35%;
+    background: #000000;
+    position: relative;
+    padding: 5px;
+    font-size:20px;
+    font-family:century gothic;
+    
+}
+.fancy_box_body{
+margin: 0;
+    padding: 20px;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #E3E4E8;
+}
+div.icon-bar1 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+div.icon-bar2 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+div.icon-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+div.icon-bar4 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.icon-bar1, .icon-bar2, .icon-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .icon-bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .icon-bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .icon-bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
